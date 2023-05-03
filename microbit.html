@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase.js"></script>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>CompSci</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="home2.js"></script>
+    </head>
+  <body>
+  <nav>
+    <ul class="navigation">
+      <div class="dropdown">
+      </div>
+    </ul>
+  </nav>
+    <section>
+      <header>
+            <a href="#"><img src="logo.png" class="logo"></a>
+          <nav>
+            <ul class="navigation">
+              <div class="dropdown">
+                  <button class="dropbtn" onclick="goToHome()">Home
+                  <i class="fa fa-caret-down"></i>
+                </button>
+              </div>
+      </div>
+            </ul>
+          </nav>
+        </header>
+      
+      <index>
+        <h2 style="color:white">Control Door Lock</h2>
+        <button onclick="on()">
+          Unlock
+        </button>
+        <button onclick="off()">
+          Lock
+        </button>
+      </index>
+      </section>
+    <script src = "firebase.js"></script>
+  </body>
+</html>
