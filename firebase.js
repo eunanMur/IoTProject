@@ -15,12 +15,12 @@ var myDB = firebase.database().ref('Data');
 
 function on(){
   myDB.set({
-    'Condition':'on'
+    'servo':'1'
   });
 }
 
 function off(){
   myDB.set({
-    'Condition':'off'
+    'servo':'0'
   });
 }
